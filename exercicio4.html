@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleExercicio4.css">
+    <title>Exercício 3</title>
+</head>
+<body>
+    <header>
+        <h5>Formulário</h5>
+        <p>Insira suas informações abaixo:</p>
+    </header>
+
+    <form>
+        <section class="InformacoesPessoais">
+            <label for="primeironome">Nome</label>
+            <br><input type="text" id="primeironome" name="primeironome" placeholder="Digite o nome aqui" spellcheck="true" required><br>
+    
+            <label for="sobrenome">Sobrenome</label>
+            <br><input type="text" id="sobrenome" name="sobrenome" placeholder="Digite o sobrenome aqui" spellcheck="true" required><br>
+            <label for="email">Qual o seu email?</label>
+            <input type="email" id="email" name="email" placeholder="Digite o email aqui" spellcheck="true" required>
+            <button type="button">Enviar</button>
+            <button type="button">Apagar tudo</button>
+        </section>
+
+
+        <section class="InformacoesGenero">
+            <p>Qual o seu gênero?</p>
+            <input type="radio" id="feminino" name="genero" value="feminino">
+            <label for="feminino">Feminino</label><br>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">Masculino</label><br>
+            <input type="radio" id="outro" name="genero" value="outro">
+            <label for="outro">Outro</label><br>
+    
+        </section>
+
+        <section class="InformacoesDisciplinas">
+            <p>Escolha as disciplinas que deseja cursar:</p>
+            <input type="checkbox" id="circuitos" name="circuitos">
+            <label for="circuitos">Circuitos Elétricos</label><br>
+            <input type="checkbox" id="arquitetura" name="arquitetura">
+            <label for="arquitetura">Arquitetura de Computadores</label><br>
+            <input type="checkbox" id="estrutura" name="estrutura">
+            <label for="estrutura">Estruturas de Dados e Algoritmos</label><br>
+            <input type="checkbox" id="sistemas" name="sistemas">
+            <label for="sistemas">Sistemas Operacionais</label><br>
+            <input type="checkbox" id="sinais" name="sinais">
+            <label for="sinais">Sinais e Sistemas</label>
+        </section>
+
+    </form>
+</body>
+</html>
